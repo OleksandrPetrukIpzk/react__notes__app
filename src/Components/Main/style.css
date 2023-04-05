@@ -1,0 +1,17 @@
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: system-ui;
+}
+.dark{
+    background: black;
+}
+.dark h2{
+    color: white;
+}
+.light{
+    background: white;
+}
+h2{
+    font-family: system-ui;
+}

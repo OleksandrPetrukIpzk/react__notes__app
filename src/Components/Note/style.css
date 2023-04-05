@@ -1,0 +1,34 @@
+.note{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    height: 200px;
+    width: 25%;
+    padding: 18px;
+    margin-left: 20px;
+    margin-right: 10px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 20px;
+    margin-top: 50px;
+    text-align: left;
+    font-family: system-ui;
+}
+.note div{
+    display: flex;
+justify-content: space-between;
+    align-items: center;
+
+}
+.note button{
+    border: 0;
+    background: none;
+    color: darkgreen;
+    cursor: pointer;
+    font-size: 30px;
+}
+.note button:hover{
+    background: white;
+    border-radius: 100px;
+    color: black;
+}

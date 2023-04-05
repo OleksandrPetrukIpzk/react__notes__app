@@ -1,0 +1,13 @@
+.changed{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+}
+.changed button{
+    padding: 10px 15px;
+    border-radius: 12px;
+    border: 1px solid black;
+    font-size: 15px;
+}

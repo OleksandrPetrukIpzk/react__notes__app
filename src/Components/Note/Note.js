@@ -7,6 +7,7 @@ export const Note = ({item, setNoteList, noteList}) =>{
         setNoteList(filteredList);
         localStorage.setItem('note', JSON.stringify(filteredList));
     }
+
     return(<div className='note'>
         <p>{item.title}</p>
         <div>

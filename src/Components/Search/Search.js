@@ -10,8 +10,8 @@ export const Search = ({setNoteList,}) => {
             const a = JSON.parse(localStorage.getItem('note')).filter(item => value.toLowerCase() === item.title.slice(0, length).toLowerCase());
             setNoteList(a);
         }
-
     }
+
     return (<div className='search'>
         <input onChange={(e) => handleSearch(e.target.value)} placeholder='Write what you want search'/>
     </div>)
